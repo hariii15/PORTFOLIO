@@ -1,0 +1,128 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+
+  @keyframes fadeIn1 {
+    from{
+      opacity:0;
+      transform:translateY(50px)
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }    
+  }
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+      scale: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-100px);
+      scale: 0.6;   
+    }
+  }
+
+
+  
+  .fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  .fade-in1{
+    animation: fadeIn1 1.5s ease-out; 
+  }
+
+  .navbar {
+    color: white;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    color: #FF6123;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: color 0.5s ease, font-size 0.5s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ae451b;
+    font-size: 1.6rem;
+
+  }
+  
+  .home {
+    display: flex;
+    margin-top: 7rem;
+    margin-left: 5rem;
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range-start: 100vh;
+    animation-range-end: 70vh;   
+  }
+  
+  .home img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+  }
+  
+  .home .right {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    position: relative;
+    border-top: 1px solid #FF6123; 
+    border-bottom: 1px solid #FF6123; 
+    color: #FF6123;
+    line-height: 1.5; 
+    margin-top: 8rem;
+  }
+  
+  .marquee span {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+    font-size: 2rem;
+    word-spacing: 20px; 
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(-100%); 
+    }
+  }
+  
+
