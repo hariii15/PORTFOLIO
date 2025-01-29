@@ -1,0 +1,20 @@
+arrow function
+it is from es6 for efficiency in terms of space and to increase a radablity we can create a functrion without name and it is called arrow function 
+
+
+------------------------------------------------------------------------------------
+
+document.getElementById("response").innerHTML = add(100,200)
+
+---------------------------------------------------------------------------------
+
+design a simple calculator by getting 2 numbers as input and display addition,sub,mul,div,quoit,remainder
+
+by creating induvidgual arrow functions for the same
+
+
+----------------------------------------------------------
+array
+
+
+create an array by taking array size and array element from the user extract all the perfect numbers and even prime numbers

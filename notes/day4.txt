@@ -1,0 +1,63 @@
+every component will have props and states
+
+PROPS
+
+it wont change
+
+STATES:
+
+it changes or we can change it
+ex:
+water bottle level will change if we drank it
+
+types:
+
+initial ,updated,current
+
+
+------------------------------------------------------------
+flipkart website:
+
+homepage:
+	groceries
+	mobile
+	fashion
+	(components)
+mobiles:
+name 
+version
+price
+state: discount, stock.
+--------------------------------------------------------------
+passing props between components:
+create two files:1) parent.js 2) child.js
+
+child.js:
+	using arrow function create a component called child
+	add an h1 tag and value = child component
+	add p tag value = acces the property called message
+
+
+---------------------------------------------------------------
+REACT HOOKS
+
+earlier in it industry they were using class component reason being state concept was not available with functional components
+
+Hooks is used implement state in functional component
+
+	types:
+	   used State()
+	   used Effect()
+	   used Ref()
+	   used context()
+best example for used state :
+
+counter clock 
+stating the initial state as 0 we can increment it , decrement it, reset it using used state hook
+
+
+
+
+
+
+

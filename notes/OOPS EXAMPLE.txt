@@ -1,0 +1,66 @@
+OOPS EXAMPLE                                    |
+                                                |
+class: bird                                     |
+                                                |
+objects:                                        |
+  parrot                                        |
+  penguin                                       |
+  peacock                                       |
+                                                |
+                                                |
+properties:                                     |
+  color                                         |
+  wings                                         |
+  eyes                                          |
+                                                |
+                                                |
+methods(behaviours):                            |
+  flying                                        |
+  singing                                       |
+  eating                                        |
+------------------------------------------------|
+
+
+JS OBJBECTS
+
+inbuilt methods
+
+keys
+values
+entries
+
+------------------------------------------------
+JS PROMISES
+
+  promise is a javascript object 
+
+  2states:
+    resolve(success)
+    rejected(failure)
+
+note:
+invoking a function
+callback functions
+
+-------------------------------------------------
+
+promise inbuilt methods:
+
+promise.all:when there is more than one promise in order to review them we can use promise inbuilt methods according to the requirements
+
+   methods:
+
+     1)promise.all()
+     2)promise.any()
+     3)promise.allsettled()
+     4)promise.race
+ 
+promise.all: once it sees a promise false it will stop 
+promise.any : gives the shorteset time promise provided status should be true
+prmise.allsetteled : ome among these three states 1) fullfiled 2) rejected 3) pending
+
+-------------------------------------------------------------------------------------------------
+
+
+
+
