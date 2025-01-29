@@ -1,0 +1,9 @@
+USE EFFECT HOOK:
+
+	upon the action in all functional components monitoring the impact or side effects can be done using use effect  hook 
+
+
+lets say we have 5 components:
+as c1...c5
+
+to overcome this in terms of efficiency we are using hooks

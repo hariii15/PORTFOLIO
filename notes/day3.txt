@@ -1,0 +1,47 @@
+write a promise called andra-bp
+person:
+andra-a = 5000
+andra-b = 2000
+andra-c = 1000
+
+
+-------------------------------------------------
+
+react js is a frame work of javascript
+ex : netflix, amazon
+
+html websites: youtube and Wikipedia
+
+
+--------------------------------------------------------
+1) create a desktop
+2)in cmd npx create-react-app appname
+3) check version of npm(node package manager)
+
+-------------------------------------------------------
+
+2 important folders in react 
+
+public folder, src folder
+
+3 important files :
+
+index.html,index.js,index.css,
+
+note: as of now don't touch index files
+
+note: initially your code in app.js
+
+----------------------------------------------------------
+
+DOM
+here unlike html once dom gets created the changes are the manipulation what we do will gets completed and that part will only re rendered 
+where as in html every time we make change entire dom will be re rendered 
+
+
+-------------------------------------------------------------
+
+web application created by react js each and everything is called as component 
+types of components
+1)functional component
+2)class component 
